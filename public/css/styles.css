@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+
+  background: black;
+  }
+body::-webkit-scrollbar
+{
+  display: none ;
+}
+#map{
+  height: 90%;
+  width: 95%;
+  border: 2px solid black;
+  border-radius: 2vw;
+  backdrop-filter: blur(50px);
+}
+.mapContainer{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/images/Earth.jpg');
+  background-size: cover;
+  padding: 1.5vh;
+}
+
+
+.header h1{
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 1vh;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
